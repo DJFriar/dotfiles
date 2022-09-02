@@ -1,4 +1,5 @@
-set tabsize 4
+# The below is based on the script posted at https://blog.smittytone.net/2020/06/19/spruce-up-the-nano-text-editor-with-syntax-colouring-and-more/
+
 set tabstospaces
 set autoindent
 set trimblanks
