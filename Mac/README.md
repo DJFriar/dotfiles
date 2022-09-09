@@ -37,3 +37,21 @@ brew install nano
 ```zsh
 echo 'include "/opt/homebrew/Cellar/nano/*/share/nano/*.nanorc"' >> ~/.nanorc
 ```
+
+## Install Powerline10k
+
+```zsh
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
+```
+
+## OpenSSH & Git
+
+```zsh
+brew install openssh git
+```
+
+## 1Password CLI
+
+```zsh
+brew install --cask 1password/tap/1password-cli
+```
