@@ -1,12 +1,13 @@
-# The below is based on the script posted at https://blog.smittytone.net/2020/06/19/spruce-up-the-nano-text-editor-with-syntax-colouring-and-more/
-
-set tabstospaces
 set autoindent
-set trimblanks
-set linenumbers
 set constantshow
-set keycolor cyan
 set functioncolor cyan
-set numbercolor yellow
+set keycolor cyan
+set linenumbers
 set mouse
+set numbercolor slate
+set statuscolor white,grey
+set tabstospaces
+set titlecolor white,grey
+set trimblanks
+
 include "/opt/homebrew/Cellar/nano/*/share/nano/*.nanorc"
