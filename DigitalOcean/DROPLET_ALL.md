@@ -5,7 +5,7 @@
 ```sh
 apt update
 apt install zsh
-chsh -s /usr/bin/zsh root
+chsh -s /usr/bin/zsh [username]
 ```
 
 ## SSH Configuration
