@@ -36,6 +36,12 @@ Copy the .zshrc file to ~
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
 ```
 
+## Install ZSH-NVM plugin
+
+```zsh
+git clone https://github.com/lukechilds/zsh-nvm ~/.oh-my-zsh/custom/plugins/zsh-nvm
+```
+
 ## Install HomeBrew
 
 ```zsh
