@@ -21,6 +21,12 @@ matches:
   - trigger: "yuo"
     replace: "you"
 
+  - trigger: ";github"
+    replace: "https://github.com/djfriar"
+
+  - trigger: ";linkedin"
+    replace: "https://www.linkedin.com/in/tommycraft/"
+
   # NOTE: espanso uses YAML to define matches, so pay attention to the indentation!
 
   # But matches can also be dynamic:
